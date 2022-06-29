@@ -20,6 +20,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: hello-world
         environment_name: Helloworld-env
-        version_label: 12351
+        version_label: 12353
         region: "us-east-1"
         deployment_package: deploy.zip
